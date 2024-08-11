@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypter</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <img class="abstergo" src="./images/abstergo2.png" alt="">
+    </header>
+    <section class="evt">
+        <div class="textbut">
+            <textarea class="input" id="input" type="text" placeholder="Introduzca texto"></textarea>
+            <div class="warned">
+                <img class="image" src="./images/icon.png" alt="">
+                <p class="warning">No se aceptan mayúsculas ni caracteres especiales</p>
+            </div>
+            <div class="buttons">
+                <button class="button_encrypt" id="button_encrypt" onclick="encrypt()">Encriptar</button>
+                <button class="button_decrypt" id="button_decrypt" onclick="decrypt()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="outbut">
+            <div class="sect1">
+                <textarea class="salida" id="output" readonly="true" placeholder="Salida de texto"></textarea>
+                <div class="bc">
+                    <button class="button_copy" id="button_copy" onclick="copy()">Copiar</button>
+                    <button class="button_copy" id="button_copy" onclick="cleard()">Borrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="thanks">Eder Caballero ©2024</p>
+    </footer>
+</body>
+</html>

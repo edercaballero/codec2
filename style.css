@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin:0; 
+}
+
+.input{
+    display: flex;
+    height: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 250%;
+    outline: none;
+    border: none;
+    resize: none;
+    background-color:lightblue;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.button_decrypt{
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+    font-size: 100%;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif; 
+    border:none;
+    box-shadow: 2px 2px 4px #000000;
+    vertical-align: middle;
+    padding: 3%;
+}
+
+.buttons{
+  flex-direction: row;
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.warning{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.salida{
+    display: flex;
+    height: 400px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    resize: none;
+    border:none;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.button_copy{
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1.5%;
+    text-decoration: none;
+    color:firebrick;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 20px firebrick;
+    border: 2px solid firebrick;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.outbut{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 0% 0% 25%;
+    border: 12px;
+    height: 100%;
+}
+
+.outbut2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% 0% 0% 25%;
+    border: 12px;
+    height: 100%;
+}
+
+.evt{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.bc{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap:2%;
+}
+
+.textbut{
+    padding:2% 0% 0% 15%;
+}
+
+.sect1{
+    background-color: whitesmoke;
+    border-radius: 16px;
+    box-shadow: 2px 2px 4px #000000;
+    justify-content: center;
+    padding: 15px;
+    height: 100%;
+}
+
+.sect2{
+    background-color: whitesmoke;
+    border-radius: 16px;
+    box-shadow: 2px 2px 4px #000000;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 500%;
+}
+
+.button_decrypt:hover{
+    background-color: darkgrey;
+}
+
+.button_copy:hover{
+    background-color:firebrick;
+    color:whitesmoke;
+}
+
+.button_encrypt{
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 100%;
+    font-weight: 600;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: darkorchid;
+    font-family: 'Montserrat', sans-serif; 
+    display: flex;
+    justify-content: center;
+    border:none;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 3%;
+}
+
+.button_encrypt:hover{
+    color: darkorchid;
+    background-color: whitesmoke;
+}
+
+.image{
+    height: 20px;
+    width: 20px;
+}
+
+.no_text{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 150%;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+
+.introduce{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 80%;
+    text-align: center;
+}
+
+
+.warned{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.abstergo{
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 70px;
+}
+
+.thanks{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    padding: 5% 0% 0% 80%;
+}
+
+.sentado{
+    width:50%;
+    align-items: center;
+}
+@media(max-width:1024px){
+
+    .evt{
+        flex-direction: column;
+        gap:50px;
+        width: auto;
+        padding: 2% 0% 0% 0%;
+    }
+    
+    .outbut{
+        padding:2% 5% 0% 15%;
+    }
+
+    .textbut{
+        padding:2% 5% 0% 15%;
+    }
+
+    .thanks{
+        padding: 5% 0% 0% 60%;
+    }
+
+    .salida{
+        width: 100%;
+    }
+
+    .input{
+        width: 100%;
+    }
+}
